@@ -17,4 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `User Home Page`
 ![User_Home](https://github.com/itsVir/Foodify/assets/98551867/78e0ec64-f830-42bd-9fac-010e65f0e8ef)
+
+<p align="center">
 The page don't fetch data of your Food if you don't backend.
+</p>
