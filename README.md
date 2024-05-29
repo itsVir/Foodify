@@ -7,7 +7,23 @@ Online Food Ordering System React Frontend Fetch Your Backend Api
 ```
 Use this command and download all necessary packages file form `package.json`<br>
 or <br>
-you can also Download Necessary packages from your Errors after Starting the Project.
+you can also Download Necessary packages from your Errors after Starting the Project.<br>
+```
+npm install @testing-library/jest-dom@^5.17.0
+npm install @testing-library/react@^13.4.0
+npm install @testing-library/user-event@^13.5.0
+npm install web-vitals@^2.1.4
+npm install axios@^1.6.7
+npm install bootstrap@^5.3.3
+npm install chart.js@^4.4.2
+npm install react@^18.2.0
+npm install react-bootstrap@^2.10.1
+npm install react-chartjs-2@^5.2.0
+npm install react-dom@^18.2.0
+npm install react-router-dom@^6.22.1
+npm install react-scripts@5.0.1
+npm install react-toastify@^10.0.4
+```
 
 ## `Start Project`
 ```
