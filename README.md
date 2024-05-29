@@ -1,17 +1,13 @@
 # Foodify
-<p align="center">
 Online Food Ordering System React Frontend Fetch Your Backend Api
-</p>
 
 ## `install Necessary Packages`
 ```
     npm install
 ```
-<p align="center">
     Use this command and download all necessary packages file form `package.json`<br>
 or <br>
 you can also Download Necessary packages from your Errors after Starting the Project.
-</p>
 ## `Start Project`
 ```
     npm start
