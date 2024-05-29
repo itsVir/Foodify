@@ -1,6 +1,13 @@
 # Foodify
 Online Food Ordering System React Frontend Fetch Your Backend Api
 
+### install Necessary Packages
+```
+    npm install
+```
+Use this command and download all necessary packages file form `package.json`
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
