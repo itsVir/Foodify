@@ -51,3 +51,5 @@ Your added Food item come on Cart page and increase and decrease the quality of 
 <p align="center">
     Admin can Manage food item from here by adding new, Updating and Deleting Item Admin can also serch item by it's name.
 </p>
+
+### And Many More Page Available you can see it in Code...
