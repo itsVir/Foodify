@@ -1,0 +1,140 @@
+.payment_back{
+    background-image: url(../../../public/Img/hero.jpg);
+    color: orange;
+    color: white;
+    padding: 38px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 20px;
+    height: 100vh;
+}
+
+.payment_back .payment_container{
+    background-color: rgba(0, 0, 0, 0.618);
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.payment_container .payment_method{
+    box-shadow: 0px 0px 0px 1px #6d6d6d;
+    font-size: 3em;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+    border: 4px solid #fff;
+    background-clip: border-box;
+    border-radius: 50%;
+    appearance: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin: auto 0;
+}
+
+.payment_container .payment_method:checked {
+  box-shadow: 0px 0px 0px 4px orange;
+  background-color: orange;
+}
+
+.payment_back label{
+    color: orange;
+    margin: auto 0px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.payment_container img{
+    width: 150px;
+    width: 150px;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.Cod_Back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    /* background-color: rgba(0, 0, 0, 0.63); */
+}
+.Cod_Countainer{
+    position: absolute;
+    top: 0;
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+@media only screen and (max-width: 1300px) {
+    .payment_back .payment_container{
+        width: 600px;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 661px) {
+    .payment_back .payment_container{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .payment_back .payment_container .payment_method , .payment_back .payment_container img{
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/* ........................... */
+
+/* Add this CSS to your Payment.css file */
+
+.Cod_Container {
+    text-align: center;
+  }
+  
+  .confirmation-animation {
+    position: relative;
+    margin-top: 20px;
+    animation: slideIn 0.5s ease-in-out;
+  }
+  
+  .confirmation-animation .checkmark {
+    display: inline-block;
+    font-size: 2em;
+    color: green;
+    margin-right: 10px;
+  }
+  
+  .confirmation-animation p {
+    display: inline-block;
+    font-size: 1.5em;
+    color: green;
+    margin: 0;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

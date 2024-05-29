@@ -1,0 +1,67 @@
+.checkout{
+    width: 500px;
+    position:absolute;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.908);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: white;
+    border: black ;
+    border-radius: 10px;
+    top: 30%;
+}
+
+.checkout #back{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    color: orange;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.checkout h2{
+    color: orange;
+}
+
+.checkout button{
+    padding: 5px 30px;
+    font-size: 22px;
+    color: white;
+    background: rgb(215, 154, 1);
+    background: radial-gradient(
+      circle,
+      rgb(104, 78, 14) 0%,
+      rgb(199, 129, 0) 100%,
+      rgb(197, 142, 13) 100%
+    );
+    border: orange;
+    border-radius: 10px; 
+    width: 300px;
+    margin: 0 auto;
+}
+
+.payment-details p{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+address{
+    font-size: 1.5rem;
+}
+
+address button{
+    font-size: 15px !important;
+    width: 200px !important;
+}

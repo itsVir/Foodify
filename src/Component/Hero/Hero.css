@@ -1,0 +1,67 @@
+.menu{
+    background-attachment:fixed;
+    background-image: url(./../../../public/Img/hero.jpg);
+    background-repeat: no-repeat;
+    objectFit: "cover" ;
+    position: "relative" ;
+    /* height: 95vh; */
+
+
+}
+
+.hero-content{
+    position: absolute;
+}
+
+.visme_d{
+    z-index: 1;
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    background-color: white;
+    color: black;
+    bottom: 260PX;
+    left: 1190PX;
+    font-size: 20PX;
+    border-radius: 5PX;
+    color: rgb(83, 59, 13);
+    padding: 3PX;
+    font-weight: 500;
+}
+
+.menu {
+    padding: 200px;
+}
+
+.menu h1{
+    color: orange;
+    font-size: 60px;
+    
+}
+
+.menu h2{
+    color: white;
+}
+
+@media only screen and (max-width: 661px) {
+    .menu {
+          width: 100%;
+          margin: 0 auto;
+          overflow: hidden;
+          padding: 0;
+          height: 50vh;
+          text-align: center;
+          padding: auto ;
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+
+      }
+    }

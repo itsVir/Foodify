@@ -1,0 +1,188 @@
+
+.profile {
+  text-align: center;
+  background-image: url(../../../public/Img/hero.jpg);
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.p_box {
+  width: 950px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+  border-radius: 20px;
+  margin: 0px auto;
+  background-color: rgba(8, 8, 8, 0.857);
+  display: flex;
+  border: 2px solid rgba(120, 80, 6, 0.084);
+  flex-direction:raw;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+.profile h1 {
+  color: white;
+  text-wrap: wrap;
+}
+
+.profile label{
+    margin: 0;
+    text-wrap: wrap;
+    color: white;
+    font-size: 20px;
+}
+
+.profile textarea{
+    background-color: rgba(187, 121, 0, 0.337);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.profile input{
+    margin: 0;
+    padding: 0;
+    width: 350px
+}
+
+.profile button{
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    background: rgb(215, 154, 1);
+    background: radial-gradient(circle, rgb(104, 78, 14) 0%, rgb(199, 129, 0) 100%, rgb(197, 142, 13) 100%);
+    border: orange; 
+    width:fit-content;
+    margin: 20px auto;
+}
+
+.location{
+  width: 900px;
+  justify-content: space-between;
+}
+
+.location input{
+  width: 330px;
+}
+
+.location_list{
+  width: 950px;
+  background-color: rgba(255, 166, 0, 0.105);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex; 
+  color: white; 
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+
+.address{
+  background-color: rgba(29, 29, 29, 0.753);
+  border-radius: 10px;
+  /* height: 400px; */
+  padding: 10px;
+  width: 430px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 7px auto;
+}
+
+.address label{
+  width: 400px;
+}
+
+.location_list .address .input-radio{
+  box-shadow: 0px 0px 0px 1px #6d6d6d;
+    font-size: 3em;
+    width: 25px;
+    height: 25px;
+    margin: 7px auto;
+    border: 4px solid #fff;
+    background-clip: border-box;
+    border-radius: 50%;
+    appearance: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-radio:checked {
+  box-shadow: 0px 0px 0px 4px orange;
+  background-color: orange;
+}
+
+.location_list1{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.location_list button{
+  width: 100px;
+  margin: 0px;
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+  align-content: center;
+  margin: auto 0px;
+  margin: 0px auto;
+}
+
+.p_ab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+@media (max-width: 1000px) {
+  
+  .location_list{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .p_box{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+  }
+}
+
+@media (max-width: 577px) {
+  .location{
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+.location_change{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

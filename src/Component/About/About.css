@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.About_back{
+    background-image: url(../../../public/Img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.About{
+    text-align: center;
+    background-color: transparent;
+    padding-top: 53px;
+    text-transform: capitalize;
+    padding-bottom: 53px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.About img{
+    border-radius: 50px 20px;
+    margin: 0 auto;
+}
+.About h1{
+    color: orange;
+    margin-bottom: 0;
+}
+.About h3{
+    color: white;
+    margin-bottom: 0;
+}
+.About p{
+    color: white;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.faq_back{
+    height: 85vh;
+    background-color: rgba(201, 189, 149, 0.171);
+    
+    padding-top: 12%;
+}
+
+.faq {
+    background-color: rgba(0, 0, 0, 0.789);
+    width: 50%;
+    border-radius: 30px;
+    padding: 0 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: 0px auto;
+  }
+  
+
+@media only screen and (max-width: 889px) {
+    .faq{
+        width: 80%;
+    }
+    
+  }
+
+.faq h1{
+    color: orange;
+    margin-bottom: 0;
+    text-align: start;
+}
+.faq_qustion{
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+}
+.faq_qustion img{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+.q-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    color: white;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 0 20px;
+    text-align: start;
+}
+.q-wrapper h3{
+    font-weight: 200px;
+}
+.q-wrapper :hover{
+    color: orange;
+}
+
+.faq_qustion .q-a p {
+    color: orange;
+    font-size: 20px;
+    justify-content: start;
+    padding-left: 20px;
+}

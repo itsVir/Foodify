@@ -1,0 +1,128 @@
+.menu-container{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0px;
+    flex-direction: row;
+    padding: 40px;
+}
+.menu_card{
+    
+    position: relative;
+    object-fit: cover;
+    text-align: center;
+}
+.menu_card p{
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right,rgba(255,0,0,0), rgba(0,0,0,1));;
+    bottom: 0px;
+    margin: 0;
+    display: flex;
+    align-items: end;
+    border-radius: 20px;
+}
+.menu_card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.menu_card p{
+    font-size: 30px;
+}
+.menu_card p span{
+    color: orange;
+    font-weight: 600;
+    font-size: 34px;
+}
+.menu_box{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    flex-grow: 1;
+}
+.menu_box:active{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.menu_box:hover {
+    transform: translateY(-10px);  
+}
+
+/* ------------------------------ */
+
+/* Menu2.css */
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-details-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-details {
+    background-color: rgba(0, 0, 0, 0.751);
+    padding: 20px;
+    color: #fff;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .menu-details div {
+    flex-grow: 1;
+  }
+  
+  .menu-details button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: radial-gradient(circle, rgb(104, 78, 14) 0%, rgb(199, 129, 0) 100%, rgb(197, 142, 13) 100%);
+    border-radius: 40px;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .quantity-controls button{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    margin: 15px;
+  }
+  

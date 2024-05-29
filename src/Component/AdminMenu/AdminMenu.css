@@ -1,0 +1,80 @@
+.Admin_menu {
+  padding-left: 78px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #292828;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  background: radial-gradient(
+    circle,
+    rgb(104, 78, 14) 0%,
+    rgb(199, 129, 0) 100%,
+    rgb(197, 142, 13) 100%
+  );
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.food-button {
+  padding: 8px 15px;
+  background: radial-gradient(
+    circle,
+    rgb(104, 78, 14) 0%,
+    rgb(199, 129, 0) 100%,
+    rgb(197, 142, 13) 100%
+  );
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table_back table {
+  margin: 30px;
+  width: 97%;
+  border-radius: 40px;
+}
+
+.table_back table th {
+  background-color: rgba(17, 13, 13, 0.76);
+  color: orange;
+  text-align: center;
+}
+
+.table_back table td button{
+  padding: 8px 15px;
+ 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table td{
+  text-align: center;
+  border-radius: 20px;
+}

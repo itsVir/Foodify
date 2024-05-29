@@ -1,0 +1,111 @@
+.Food_list_back {
+    background-image: url(../../../public/Img/hero.jpg);
+    padding: 30px 0;
+    /* background-repeat: no-repeat; */
+  }
+  
+  .Food_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .Food_card {
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+    height: 270px;
+    border-radius: 20px;
+    margin: 0px auto;
+    background-color: rgba(8, 8, 8, 0.757);
+    display: flex;
+    gap: 50px;
+    border: 2px solid rgba(120, 80, 6, 0.084);
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  @media only screen and (max-width: 1740px) {
+      .Food_card {
+        flex-direction: row;
+        height: auto;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        min-width: 10px;
+        gap: 10px;
+      }
+      .Food_card button{
+          margin: 0px auto;
+      }
+      .Food_card p {
+          width: 100%;
+      }
+    } 
+  
+  
+  .Food_card .Food_img {
+    box-sizing: border-box;
+  }
+  
+  .Food_card img {
+    width: 350px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .Food_Detail {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 20px;
+  }
+  .Food_card h1 {
+    color: orange;
+  }
+  .Food_card p {
+    color: white;
+     text-wrap: wrap;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    text-wrap: wrap;
+    width: 50vw;
+  }
+  
+  @media only screen and (max-width: 1740px) {
+      .Food_card p {
+          -webkit-line-clamp: 4;
+      }
+      .Food_Detail {
+          gap:5px;
+      }
+  
+  }
+  
+  
+  
+  .Food_card button {
+    width: 200px;
+    padding: 5px 30px;
+    font-size: 18px;
+    color: white;
+    background: rgb(215, 154, 1);
+    background: radial-gradient(
+      circle,
+      rgb(104, 78, 14) 0%,
+      rgb(199, 129, 0) 100%,
+      rgb(197, 142, 13) 100%
+    );
+    border: orange;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  

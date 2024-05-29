@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.register_bg{
+    background-image: url(../../../public/Img/hero.jpg);
+    padding: 53px 0;
+}
+.register{
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px groove rgba(255, 255, 255, 0.084);
+    /* margin: 30px auto; */
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.74);
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+    padding-bottom: 30px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 30vw;
+}
+@media only screen and (max-width: 1640px) {
+    .register {
+    width: 400px;
+    }
+    
+
+}
+
+.register h1{
+    color: orange;
+    margin-top: 30px;
+
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+.register label{
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+.register_inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+   
+}
+.register_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+    /* justify-content:space-evenly; */
+}
+label{
+    font-size: 20px;
+    text-align: start;
+    margin-left: 5px;
+}
+input{
+    background-color: rgba(187, 121, 0, 0.337);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* width: 90%; */
+}
+
+.register button{
+    padding: 5px 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    background: rgb(215, 154, 1);
+    background: radial-gradient(circle, rgb(104, 78, 14) 0%, rgb(199, 129, 0) 100%, rgb(197, 142, 13) 100%);
+    border: orange; 
+}
+
+.register p{
+    color: white;
+}
+.register p a{
+    color: orange;
+}
+
+.error {
+    color:red; /* Set the error message color to red */
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+
+  /* Register.css */
+
+.alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.9;
+    z-index: 999;
+  }
+  
+  .success {
+    background-color: #4caf50; /* Green */
+    color: white;
+  }
+  
+  .error {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  

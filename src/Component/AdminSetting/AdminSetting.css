@@ -1,0 +1,55 @@
+.AdSetting_back{
+    background-image: url(../../../public/Img/hero.jpg);
+    padding-left: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+    height: 93.7vh;
+}
+
+.Admin_box{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.471);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+.Admin_box h2{
+    color: orange;
+    text-align: center;
+}
+
+.Admin_box .admin_data{
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Admin_box .admin_data p{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.Admin_box button{
+    padding: 5px 40px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    color: white;
+    background: rgb(215, 154, 1);
+    background: radial-gradient(circle, rgb(104, 78, 14) 0%, rgb(199, 129, 0) 100%, rgb(197, 142, 13) 100%);
+    border: orange; 
+    margin: 20px auto;
+    text-align: center;
+}

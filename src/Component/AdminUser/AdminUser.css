@@ -1,0 +1,84 @@
+.aduser_back {
+  background-image: url(../../../public/Img/hero.jpg);
+  padding-left: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  justify-content: center;
+  color: white;
+}
+
+.aduser_back table{
+    background-color: black;
+}
+
+.aduser_back table th{
+    background-color: rgb(24, 24, 24);
+    font-size: 1.3rem;
+}
+
+.aduser_back button{
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background: rgb(215, 154, 1);
+    background: radial-gradient(circle, rgb(104, 78, 14) 0%, rgb(199, 129, 0) 100%, rgb(197, 142, 13) 100%);
+    border: orange; 
+}
+
+.user-details-card-background{
+    height: 85.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.user-details-card{
+    /* position: absolute; */
+    background-color: rgba(0, 0, 0, 0.847);
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+/* ............................. */
+
+.user-details-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .back-button {
+    margin-bottom: 10px;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .food-orders {
+    margin-top: 20px;
+  }
+  
+  .order-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .order-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .order-card strong {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,83 @@
+.Admin_order {
+  padding-left: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  width: 97vw;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.Admin_order .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #292828;
+  }
+
+.Admin_order ul {
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+table {
+  width: 93vw;
+  box-sizing: border-box;
+
+}
+
+table th,
+td {
+  text-align: center;
+}
+
+.Admin_order table th {
+  background-color: #292828;
+  color: white;
+
+  background: rgb(41,40,40);
+}
+
+.Admin_order tr {
+  border-radius: 0 !important;
+}
+
+.Admin_order td {
+  border-radius: 0 !important;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.76);
+
+  
+}
+
+.Admin_order table button {
+  color: orange;
+  background-color: transparent;
+  border: 2px solid;
+  padding: 5px 20px;
+  border-radius: 20px;
+  transition: all 1s;
+}
+
+.Admin_order table button:hover {
+  color: white;
+  padding: 5px 20px white;
+  background-color: orange;
+  font-weight: 600;
+}
+
+.Admin_order .nav-tabs {
+  border-bottom: 2px solid orange;
+  background-color: #292828;
+  display: flex;
+  justify-content: center;
+}
+
+.new-order-form{
+  background-color: rgba(41, 40, 40, 0.825);
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}

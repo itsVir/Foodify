@@ -1,0 +1,31 @@
+.Form_align{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 25vw;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid;
+    justify-content: center;
+}
+
+form label{
+    font-weight: 600;
+    color: white;
+}
+
+form button{
+    padding: 8px 15px;
+  background: radial-gradient(circle, rgb(104, 78, 14) 0%, rgb(199, 129, 0) 100%, rgb(197, 142, 13) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

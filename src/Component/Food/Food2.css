@@ -1,0 +1,47 @@
+.Food2_back{
+
+    background-image: url(../../../public/Img/hero.jpg);
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px;
+    /* background-repeat: no-repeat; */
+
+}
+
+.food_box_align{
+    width: 90vw;
+    height: auto;
+    /* background-repeat: no-repeat; */
+}
+
+.nav-tabs {
+    border-bottom: 2px solid orange;
+    background-color: #0d0e10;
+    display: flex;
+    justify-content: center;
+}
+.nav button{
+    color: white;
+}
+
+.nav button:hover{
+    color: white;
+    border: 0px;
+    border: 1px solid orange !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: orange;
+    background-color: #0d0e10;
+    border: 1px solid orange !important;
+}
+
+@media only screen and (max-width: 661px) {
+    .Food2_back{
+        padding: 0;
+    }
+
+    }
+    
